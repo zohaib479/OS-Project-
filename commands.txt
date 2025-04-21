@@ -1,0 +1,37 @@
+./downloader https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png 4 image.png
+
+
+
+
+./downloader https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 4 file.pdf
+
+
+
+
+./downloader https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png 4 demo1.png
+
+./downloader https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2048px-React-icon.svg.png 4 react_logo.png
+
+./downloader https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png 4 user_icon.png
+
+
+
+
+
+./downloader https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf 4 dummy.pdf
+
+./downloader https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf 4 adobe_sample.pdf
+
+./downloader https://gahp.net/wp-content/uploads/2017/09/sample.pdf 4 sample2.pdf
+
+
+
+
+
+
+
+
+gcc downloader.c -o downloader -lcurl -lpthread
+
+
+
