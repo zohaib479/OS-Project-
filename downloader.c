@@ -258,7 +258,7 @@ void start_download(GtkWidget *widget, gpointer user_data) {
     fclose(output_file);
     output_file = NULL;
 
-    printf("\n✅ Download complete: %s\n", output_filename);
+    printf("\n Download complete: %s\n", output_filename);
 }
 
 int main(int argc, char *argv[]) {
